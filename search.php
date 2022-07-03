@@ -1,24 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              'main': '#CCCC33',
-              'second-main': '#6666FF',
-              'text': '#1F2937  ', 
-            }
-          }
-        }
-      }
-    </script>
+<?php include './components/meta.php';?>
 </head>
 <body class="bg-main">
 
@@ -36,6 +19,6 @@
       </form>
     </div>
   </div>
-
+  <?php include './components/footer.php';?>
 </body>
 </html>  

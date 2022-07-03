@@ -1,24 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>checkput</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              'main': '#CCCC33',
-              'second-main': '#6666FF',
-              'text': '#1F2937  ', 
-            }
-          }
-        }
-      }
-    </script>
+<?php include './components/meta.php';?>
 </head>
 <body >
 
@@ -40,13 +23,7 @@
     
         <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
         <div class="md:flex items-center">
-            <div class="flex flex-col md:flex-row md:mx-6">
-            <a class="my-1 text-sm text-white font-medium hover:text-second-main md:mx-4 md:my-0" href="index.html">Home</a>
-            <a class="my-1 text-sm text-white font-medium hover:text-second-main md:mx-4 md:my-0" href="product.html">Products</a>
-            <a class="my-1 text-sm text-white font-medium hover:text-second-main md:mx-4 md:my-0" href="checkout.html">Checkout</a>
-            <a class="my-1 text-sm text-white font-medium hover:text-second-main md:mx-4 md:my-0" href="#">Contact</a>
-            <a class="my-1 text-sm text-white font-medium hover:text-second-main md:mx-4 md:my-0" href="#">About</a>
-            </div>
+        <?php include './components/nav.php';?>
     
             <div class="flex justify-center md:block">
                 <a class="relative text-white hover:text-gray-600" href="add_cart.html">
@@ -218,6 +195,6 @@
     </div> 
 
    
-
+    <?php include './components/footer.php';?>
     </body>
 </html>
