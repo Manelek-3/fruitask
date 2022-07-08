@@ -31,8 +31,13 @@
                     </svg>
         
                     <span class="absolute top-0 left-0 rounded-full bg-indigo-500 text-white p-1 text-xs"></span>
+                    <span class="fi-rr-shopping-cart">
+                    
                 </a>
             </div>
         </div>
+        <!-- <div class="text-main">
+            <span class="fi fi-rr-camera" style="color: white;">
+        </div> -->
     </div>
 </nav>

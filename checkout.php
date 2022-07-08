@@ -4,7 +4,7 @@
     <div class="py-16  overflow-hidden">
         <div class="container m-auto px-6 space-y-8 md:px-12 lg:px-20">
             <div>
-                <h2 class="mt-4 text-center text-2xl text-white font-bold md:text-4xl"> Checkout</h2>
+                <h2 class="mt-4 text-center text-2xl text-main font-bold md:text-4xl"> Checkout</h2>
             </div>
             <div class="   md:-mx-8  bg-white rounded overflow-hidden">
                 <div class="py-16 bg-white">  
@@ -112,7 +112,7 @@
                                     <div class="flex mt-5 -ml-0.5 gap-6">
                                         <div class="flex text-white mt-4 p-3 h-full w-[14rem] text-center bg-main rounded-lg">
                                             <div class="flex flex-col">
-                                                <img src="/img/cards/bank.png" class="h-12" alt="">
+                                                <img src="./img/cards/bank.png" class="h-12" alt="">
                                                 <div>
                                                     <input id="default-radio-1" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 ">
                                                     <label for="default-radio-1" class="ml-2 text-sm font-medium text-blue-900 ">Pay through bank</label>
@@ -121,7 +121,7 @@
                                         </div>
                                         <div class="flex text-white mt-4 p-3 h-full w-[14rem] text-center bg-main rounded-lg">
                                             <div class="flex flex-col">
-                                                <img src="/img/cards/visa.png" class="h-12" alt="">
+                                                <img src="./img/cards/visa.png" class="h-12" alt="">
                                                 <div>
                                                     <input id="default-radio-1" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 ">
                                                     <label for="default-radio-1" class="ml-2 text-sm font-medium text-blue-900 ">Pay with bank</label>

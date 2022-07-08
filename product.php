@@ -4,7 +4,7 @@
     <div class="py-16  overflow-hidden">
         <div class="container m-auto px-6 space-y-8 md:px-12 lg:px-20">
             <div>
-                <h2 class="mt-4 text-center text-2xl text-white font-bold md:text-4xl"> Products Details</h2>
+                <h2 class="mt-4 text-center text-2xl text-main font-bold md:text-4xl"> Products Details</h2>
             </div>
             
             <div class="   md:-mx-8  bg-white rounded overflow-hidden">
@@ -13,22 +13,22 @@
                         <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
                             <div class="md:5/12 lg:w-5/12">
                                 <div class="bg-second-main rounded-xl">
-                                    <img  src="/img/suit/suit1.png" alt="" class="hover:rotate-1">
+                                    <img  src="./img/suit/suit1.png" alt="" class="hover:rotate-1">
                                 </div>
                                 <div class=" flex flex-row space-x-2 mt-5">
-                                    <div class="bg-main rounded p-2   shadow-2xl">
+                                    <div class="bg-second-main rounded p-2   shadow-2xl">
                                         <div class="">
-                                            <img  src="/img/suit/suit3.png" alt="" class="hover:rotate-1">
+                                            <img  src="./img/suit/suit3.png" alt="" class="hover:rotate-1">
                                         </div>
                                     </div>
-                                    <div class="bg-main roundedg p-2   shadow-2xl">
+                                    <div class="bg-second-main roundedg p-2   shadow-2xl">
                                         <div class="">
-                                            <img  src="/img/suit/suit3.png" alt="" class="hover:rotate-1">
+                                            <img  src="./img/suit/suit3.png" alt="" class="hover:rotate-1">
                                         </div>
                                     </div>
-                                    <div class="bg-main rounded p-2   shadow-2xl">
+                                    <div class="bg-second-main rounded p-2   shadow-2xl">
                                         <div class="">
-                                            <img  src="/img/suit/suit3.png" alt="" class="hover:rotate-1">
+                                            <img  src="./img/suit/suit3.png" alt="" class="hover:rotate-1">
                                         </div>
                                     </div>
                                 </div>

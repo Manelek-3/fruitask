@@ -6,7 +6,7 @@
     <div class="py-16  overflow-hidden">
         <div class="container m-auto px-6 space-y-8 md:px-12 lg:px-20">
             <div>
-                <h2 class="mt-4 text-center text-2xl text-white font-bold md:text-4xl"> Cart</h2>
+                <h2 class="mt-4 text-center text-2xl text-main font-bold md:text-4xl"> Cart</h2>
             </div>
             
             <div class="   md:-mx-8  bg-white rounded overflow-hidden">
