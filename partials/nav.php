@@ -36,8 +36,6 @@
                 </a>
             </div>
         </div>
-        <!-- <div class="text-main">
-            <span class="fi fi-rr-camera" style="color: white;">
-        </div> -->
+      
     </div>
 </nav>
