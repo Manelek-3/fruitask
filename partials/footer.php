@@ -1,32 +1,29 @@
     <footer class="p-4 bg-main sm:p-6 dark:bg-gray-800">
         <!-- search -->
         <div class="container m-auto px-6 space-y-8 md:px-12 lg:px-20 mb-5">
-            <div class="  overflow-hidden ]">
-                <div class=" px-6 space-y-8 md:px-12 lg:px-20">
-                    <form>   
-                        <div class="relative">
-                            <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
-                                <svg class="w-5 h-5 text-gray-500 :text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-                            </div>
-                            <input type="search" id="default-search" class="block p-4 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500  " placeholder="Search for Shoes, Bags, Suit ...." required>
-                            <button type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 ">Search</button>
+            <div class=" px-6 space-y-8 md:px-12 lg:px-20">
+                <form>   
+                    <div class="relative">
+                        <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                            <svg class="w-5 h-5 text-gray-500 :text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                         </div>
-                    </form>
-                </div>
+                        <input type="search" id="default-search" class="block p-4 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500  " placeholder="Search for Shoes, Bags, Suit ...." required>
+                        <button type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 ">Search</button>
+                    </div>
+                </form>
             </div>
         </div>
                 <!-- search -->
         <div class="md:flex md:justify-between ">
             <div class="mb-6 md:mb-0">
                 <a href="#" class="flex items-center">
-                    <!-- <img src="/docs/images/logo.svg" class="mr-3 h-8" alt="FlowBite Logo" /> -->
-                    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Fruitask</span>
+                    <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Fruitask</span>
                 </a>
             </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Let Us Help You</h2>
-                    <ul class="text-gray-600 dark:text-gray-400">
+                    <ul class="text-gray-600 ">
                         <li class="mb-4">
                             <a href="#" class="hover:underline">Help Center</a>
                         </li>
@@ -46,18 +43,15 @@
                 </div>
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">About Fruitask</h2>
-                    <ul class="text-gray-600 dark:text-gray-400">
+                    <ul class="text-gray-600 ">
                         <li class="mb-4">
                             <a href="#" class="hover:underline ">About Us</a>
-                        </li>
-                        <li>
-                            <a href="#" class="hover:underline">Terms and Conditions</a>
                         </li>
                     </ul>
                 </div>
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-                    <ul class="text-gray-600 dark:text-gray-400">
+                    <ul class="text-gray-600 ">
                         <li class="mb-4">
                             <a href="#" class="hover:underline">Privacy Policy</a>
                         </li>
@@ -68,9 +62,11 @@
                 </div>
             </div>
         </div>
+
         <hr class="my-6 border-gray-200 sm:mx-auto border-second-main dark:border-gray-700 lg:my-8" />
+
         <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© <?php echo date("Y"); ?>  <a href="#" class="hover:underline">Fruitask</a>. All Rights Reserved.
+            <span class="text-sm text-gray-500 sm:text-center ">© <?php echo date("Y"); ?>  <a href="#" class="hover:underline">Fruitask</a>. All Rights Reserved.
             </span>
             <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
                 <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">

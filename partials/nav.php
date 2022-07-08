@@ -20,6 +20,7 @@
             <a class="my-1 text-sm text-second-main font-medium hover:text-second-main md:mx-4 md:my-0" href="./index.php">Home</a>
             <a class="my-1 text-sm text-second-main font-medium hover:text-second-main md:mx-4 md:my-0" href="./product.php">Products</a>
             <a class="my-1 text-sm text-second-main font-medium hover:text-second-main md:mx-4 md:my-0" href="./checkout.php">Checkout</a>
+            <a class="my-1 text-sm text-second-main font-medium hover:text-second-main md:mx-4 md:my-0" href="./purchased_list.php">purchased</a>
             <a class="my-1 text-sm text-second-main font-medium hover:text-second-main md:mx-4 md:my-0" href="#">Contact</a>
             <a class="my-1 text-sm text-second-main font-medium hover:text-second-main md:mx-4 md:my-0" href="#">About</a>
             </div>
